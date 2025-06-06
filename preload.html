@@ -35,52 +35,8 @@
 
     p {
       font-size: 1rem;
-      color: #ccc ;
-margin-bottom: 30px;
+      color: #ccc;
+      margin-bottom: 30px;
     }
 
     .loader-bar {
-      width: 80%;
-      height: 10px;
-      background-color: #333;
-      border-radius: 5px;
-      overflow: hidden;
-      position: relative;
-    }
-
-    .loader-inner {
-      height: 100%;
-      background-color: #28a745;
-      width: 0%;
-      animation: loading 4s linear infinite;
-    }
-
-    @keyframes loading {
-      0% { width: 0%; }
-      50% { width: 50%; }
-      100% { width: 100%; }
-    }
-
-    .loading-text {
-      font-size: 1rem;
-      color: #aaa;
-      margin-top: 10px;
-    }
-
-  </style>
-  <script>
-    setTimeout(function() {
-      window.location.href = "https://foreignhand.pages.dev/";
-    }, 4000);
-  </script>
-</head>
-<body>
-  <h1>Foreignhand Pamigay</h1>
-  <p>Don’t forget to register</p>
-<div class="loader-bar">
-    <div class="loader-inner"></div>
-  </div>
-
-  <div class="loading-text">Loading rewards center...</div>
-</body>
-</html>
